@@ -1,0 +1,363 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvatica" san-serif;
+  font-size: 16px;
+}
+
+p {
+  letter-spacing: 0.9px;
+  line-height: 26px;
+  font-family: "Merriweather", sans-serif;
+}
+
+section {
+  padding: 20px 50px;
+  border-radius: ;
+  font-size: 1.1em;
+  border: 1px solid;
+  border-color: white;
+  margin: 0px;
+  max-width: 100%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: black;
+}
+
+col-md-6 {
+  display: flex;
+}
+
+.title {
+  padding-top: 20vh;
+  padding-bottom: 2vh;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.top_foto {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+}
+
+.banner h1 p {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/*-------------------------*/
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
+nav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.6rem 3.4rem;
+  margin: 10px;
+}
+
+nav .container {
+  padding-bottom: 10px;
+}
+.shrink .container {
+  border: none !important;
+}
+
+.navbar-toggler {
+  background-color: black;
+}
+
+ul.navbar-nav {
+  margin-left: auto;
+}
+ul.navbar-nav li a.nav-link {
+  color: #ffffff !important;
+}
+ul.navbar-nav li a.nav-link:hover {
+  color: #87a8a4 !important;
+}
+ul.navbar-nav li.active a.nav-link {
+  color: #87a8a4 !important;
+  transition: all.3s;
+}
+
+.shrink {
+  background: #fff !important;
+  box-shadow: 1px 2px 4px 0px #00000075 !important;
+}
+.shrink .logo {
+  color: #2d94fc !important;
+}
+.shrink ul.navbar-nav li a.nav-link {
+  color: #222222 !important;
+}
+.shrink ul.navbar-nav li a.nav-link:hover,
+.shrink ul.navbar-nav li.active a.nav-link {
+  color: #87a8a4 !important;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+  background: #e1306c;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+  background: black;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.removed {
+  list-style-type: none;
+}
+
+.werkervaring {
+  background-color: #d9cab3;
+}
+
+.hetcultureleloket {
+  background-color: #87a8a4;
+}
+
+.hetcultureleloket div {
+  dislpay: flex;
+}
+
+.overJet {
+  display: flex;
+}
+
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover {
+  width: 200px;
+}
+
+.wrapper .button:hover .icon i {
+  color: #fff;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.img_cultuur {
+  border-radius: 15px;
+  max-width: 95%;
+  max-height: 95%;
+  display: block;
+}
+
+.onderwijsloket_img {
+  width: 20vw;
+  border-radius: 15px;
+  height: 10vw;
+  /*   margin-top: 1vw; */
+  margin-left: 20vw;
+  display: flex;
+}
+
+.overJet {
+  background-color: #d9cab3;
+}
+
+.onderwijsloket {
+  display: flex;
+}
+
+.hetOnderwijsLoket div {
+  display: flex;
+}
+
+.logo {
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.contact-banner {
+  border-radius: 15px;
+  max-width: 30%;
+  max-height: 30%;
+}
+
+.contact_section {
+  background-color: #efe3d0;
+}
+
+.socialmedia {
+  background-color: black;
+  height: 100px;
+}
+
+.banner {
+  background-color: #986d8e;
+  width: 100%;
+  height: 100%;
+/*   padding: 20px 50px; */
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+}
+
+.desc {
+  text-align: left;
+}
+
+.banner_desc p.desc {
+  color: #fff;
+  margin: 30px 0px;
+}
+
+a.btn {
+  padding: 12px 30px;
+  background: #2d94fc;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 20px;
+  transition: all 0.4s;
+  box-shadow: 1px 2px 4px 0px #00000075;
+}
+.btn-trans {
+  background: transparent !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+.btn-color:hover {
+  background: transparent !important;
+  color: #fff;
+  border: 1px solid #fff !important;
+  transition: all 0.4s cubic-bezier(0.65, 0.05, 0.51, 0.67);
+}
+.btn-trans:hover {
+  background: #2d94fc !important;
+  color: #fff !important;
+  transition: all 0.4s cubic-bezier(0.65, 0.05, 0.51, 0.67);
+  border: 1px solid transparent !important;
+}
+
+.collapse .navbar-collapse {
+  float: right;
+}
+/*Media QUERIES*/
+
+@media (max-width: 991px) {
+  nav div {
+    display: flex;
+  }
+
+  a.btn {
+    margin-right: 300px;
+    padding: 6px 20px;
+  }
+
+  .title {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+  }
+
+  .logo {
+    font-size: 30px !important;
+    letter-spacing: 2px;
+    display: block;
+    margin-right: auto;
+    width: 50%;
+    max-width: 25%;
+    max-height: 25%;
+  }
+
+  .contact-banner {
+    background-image: url("https://cdn.glitch.me/be08c830-4722-4888-b5b9-f7b8a51b45a6%2FHet%20Jet%20Loket%20-%20banner.jpg?v=1635789652823");
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .onderwijsloket_img {
+    display: none;
+  }
+
+  .img_cultuur {
+    border-radius: 15px;
+    max-width: 95%;
+    max-height: 95%;
+    display: block;
+    margin-top: 10px;
+  }
+
+  a.btn {
+    margin-right: 10px;
+    padding: 6px 20px;
+  }
+
+  .bg-light {
+    background-color: transparent !important;
+  }
+  .shrink {
+    background: white !important;
+  }
+  .banner {
+    padding: 150px 50px;
+    background-position: top center;
+  }
+  .banner-desc {
+    padding: 78px 0px;
+  }
+}
